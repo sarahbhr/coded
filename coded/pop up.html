@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
@@ -23,37 +24,37 @@
       <div style="background-color: #282A5B; border-radius: 30px; " class="modal-content text-white">
         <div class="container-fluid px-5 py-3">
         <div class="modal-header border-0">
-          <h1 style="font-family: Oswald;font-weight: bold;font-size: 48px;color:#F0F7FF; " class="modal-title" id="exampleModalLabel">ADD PRODUCT</h1>
+          <h1 class="modal-title txt" id="exampleModalLabel">ADD PRODUCT</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div  class="modal-body">
          <div  class="mb-3 row">
-                <label style="font-family: Oswald;font-size: 24px;color: #F0F7FF;" for="name" class="col-sm-2 col-form-label">Name*</label>
+                <label  for="name" class="col-sm-2 txt col-form-label">Name*</label>
                 <div class="col-sm-10">
-                  <input style="background-color: #282A5B; color: rgba(240, 247, 255, 0.4); font-family: Oswald; font-size: 24px;" type="text" class="form-control form-control-lg rounded-pill border-white text-white" placeholder="   Product Name" id="name">
+                  <input  type="text" class="form-control form-control-lg rounded-pill border-white text-white inp" placeholder="   Product Name" id="name">
                 </div>
               </div>
                 <div class="mb-3 row">
-                <label style="font-family: Oswald;font-size: 24px;color: #F0F7FF;" for="Price" class="col-sm-2 col-form-label">Price*</label>
+                <label  for="Price" class=" txt col-sm-2 col-form-label">Price*</label>
                 <div class="col-sm-10  ">
-                  <input style="background-color: #282A5B; color: rgba(240, 247, 255, 0.4); font-family: Oswald; font-size: 24px;" type="text" class="form-control form-control-lg rounded-pill border-white text-white" placeholder="   Product Price" type="text" class="form-control form-control-lg rounded-pill" id="Price">
+                  <input  type="text" class="form-control form-control-lg inp rounded-pill border-white text-white" placeholder="   Product Price" type="text" class="form-control form-control-lg rounded-pill" id="Price">
                 </div>
               </div> 
               <div class="mb-3 row">
-                <label style="font-family: Oswald;font-size: 24px;color: #F0F7FF;" for="Colors" class="col-sm-2 col-form-label">Colors</label>
+                <label for="Colors" class=" txt col-sm-2 col-form-label">Colors</label>
                 <div class="col-sm-10">
-                  <input style="background-color: #282A5B; color: rgba(240, 247, 255, 0.4); font-family: Oswald; font-size: 24px;" type="text" class="form-control form-control-lg rounded-pill border-white text-white" placeholder="   Product Colors" type="text" class="form-control form-control-lg rounded-pill" id="Colors">
+                  <input  type="text" class=" inp form-control form-control-lg rounded-pill border-white text-white" placeholder="   Product Colors" type="text" class="form-control form-control-lg rounded-pill" id="Colors">
                 </div>
               </div>
               <div class="mb-3 row">
-                <label style="font-family: Oswald;font-size: 24px;color: #F0F7FF;" for="Textarea1" class="col-sm-2 col-form-label px-2">Descrption* </label>
+                <label  for="Textarea1" class=" txt col-sm-2 col-form-label px-2">Descrption* </label>
                 <div class="col-sm-10">
-                    <textarea style="background-color: #282A5B;  border-radius: 27px; color: rgba(240, 247, 255, 0.4); font-family: Oswald; font-size: 24px;" type="text" class="form-control form-control-lg  border-white text-white" placeholder="   Product Descrption" class="form-control form-control-lg " id="Textarea1" rows="3"></textarea>
+                    <textarea  type="text" class=" inp form-control form-control-lg  border-white text-white" placeholder="   Product Descrption" class="form-control form-control-lg " id="Textarea1" rows="3"></textarea>
                 </div>
               </div>
         </div>
         <div class="modal-footer border-0">
-          <button style="width: 207px; background: #282A5B; border: solid #7A2FFF ; font-family: Oswald; font-size: 24px; font-weight: 500;  color:#7A2FFF ;  " type="button" class="btn btn-secondary rounded-pill " data-bs-dismiss="modal">cancel</button>
+          <button type="button" class="btn  rounded-pill inp btn1 " data-bs-dismiss="modal">cancel</button>
           <button   style="width: 207px; background: #7A2FFF;  border: solid #7A2FFF ;font-family: Oswald; color:#282A5B ;       font-weight: 500;
           font-size: 24px; " type="button" class="btn  rounded-pill ">Confirm </button>
         </div>
