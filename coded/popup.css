@@ -1,0 +1,35 @@
+.d{
+    background-color: #282A5B !important; border-radius: 30px !important;
+}
+.txt{
+    color:#F0F7FF !important;
+    font-family: Oswald;
+    font-size: 24px !important;
+}
+
+h1.txt{
+    font-weight: bold;
+    font-size: 48px !important;
+}
+
+.inp{
+    background-color: #282A5B !important; color: rgba(240, 247, 255, 0.4) !important; 
+    font-family: Oswald;
+     font-size: 24px !important;
+}
+
+textarea.inp{
+    border-radius: 27px;
+}
+button.btn1{
+    width: 207px; 
+     border: solid #7A2FFF ;
+     font-weight: 500;  
+     color: #7a2fff !important; ;  
+}
+button.btn2{
+    background: #7A2FFF !important;  color:#282A5B !important ;       
+          
+}
+
+
