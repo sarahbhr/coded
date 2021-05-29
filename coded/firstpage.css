@@ -1,0 +1,19 @@
+                .zoom:hover {
+                    -ms-transform: scale(1.1);
+                    /* IE 9  */
+                    -webkit-transform: scale(1.1);
+                    /* Safari 3-8 */
+                    transform: scale(1.1);
+                    overflow: hidden;
+                    transition: transform 1s, filter 1s;
+                    filter: blur(2px);
+                }
+                
+                .ico {
+                    width: 35px;
+                    height: 35px;
+                }
+                
+                footer {
+                    background: #F0F7FF;
+                }
