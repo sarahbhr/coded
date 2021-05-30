@@ -1,19 +1,90 @@
-                .zoom:hover {
-                    -ms-transform: scale(1.1);
-                    /* IE 9  */
-                    -webkit-transform: scale(1.1);
-                    /* Safari 3-8 */
-                    transform: scale(1.1);
-                    overflow: hidden;
-                    transition: transform 1s, filter 1s;
-                    filter: blur(2px);
-                }
-                
-                .ico {
-                    width: 35px;
-                    height: 35px;
-                }
-                
-                footer {
-                    background: #F0F7FF;
-                }
+.cdiv1 {
+    height: 400px;
+    background: #F0F7FF;
+}
+
+.cdiv2 {
+    font-family: Montserrat;
+    line-height: 44px;
+    font-size: 36px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.carousel-item {
+    height: 400px !important;
+    background: #F0F7FF !important;
+}
+
+.card1 {
+    background: #FFF496 !important;
+}
+
+.card2 {
+    background: #FFBEBE !important;
+}
+
+.card-title1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #D9D083;
+}
+
+.card-title2 {
+    color: #C79B9B;
+}
+
+.card-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #595959;
+}
+
+.article-txt {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.input-group-text {
+    background: linear-gradient(126.06deg, rgba(255, 255, 255, 0) 2.04%, rgba(255, 255, 255, 0.1) 68.44%) !important;
+}
+
+form>span {
+    box-shadow: none;
+}
+
+form>div {
+    width: 191px !important;
+    height: 45px !important;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9  */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform 1s, filter 1s;
+    filter: blur(2px);
+}
+
+.ico {
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    background: #F0F7FF;
+}
